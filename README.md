@@ -16,18 +16,18 @@ collection book since it provides the easiest access to bibliographic data (stan
 
 # Organization of data
 
-The plan is to organize one master bibliographic database (in `Bibtex` format) 
+The plan is to organize one master bibliographic database (in `Biblatex` format) 
 and then create separate files of references to these, one for each survey, with
 reference to the bibliography and other fields that might be specific to each
 survey. The Bibtex data can be processed fairly easily, the separate file of references
 will be plain text files (.csv). 
 
-## Comments on the Bibtex fields
+## Comments on the Bib fields
 
-- **author** The Bibtex database will typically reference the photographer as the *author* for
+- **author** The Biblatex database will typically reference the photographer as the *author* for
 standard monographs. In some cases, there will instead be one or more editors listed
 as the main creators of the book (in which case the *author* field will be empty). 
 - **year** This will be the year of the first edition.
-- **address** This will in some cases be the city, country, or city and state. In some cases there won't be such information, but at the end of the address field there will always be a semi-colon delimiter and a 3-letter ISO code for the country of origin. 
+- **location** This will in some cases be the city, country, or city and state. In some cases there won't be such information, but at the end of the address field there will always be a semi-colon delimiter and a 3-letter ISO code for the country of origin. 
 - **bibtexkey** Lastname of the (first) author/editor (all last names squashed together) and the year of publication (such as `Daguerre1839`).
 
