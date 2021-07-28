@@ -11,7 +11,8 @@ Editions M+M), and a whole slew of surveys that are specific to geographical
 regions or time periods. My intention is to cover the surveys that are readily
 available to me (starting with my home library).
 
-The plan for 
+The plan for entering data is to start with the Auer
+collection book since it provides the easiest access to bibliographic data (standardized to one book per page).
 
 # Organization of data
 
@@ -28,5 +29,5 @@ standard monographs. In some cases, there will instead be one or more editors li
 as the main creators of the book (in which case the *author* field will be empty). 
 - **year** This will be the year of the first edition.
 - **address** This will in some cases be the city, country, or city and state. In some cases there won't be such information, but at the end of the address field there will always be a semi-colon delimiter and a 3-letter ISO code for the country of origin. 
-
+- **bibtexkey** Lastname of the (first) author/editor (all last names squashed together) and the year of publication (such as `Daguerre1839`).
 
